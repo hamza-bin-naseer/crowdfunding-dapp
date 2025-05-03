@@ -9,7 +9,7 @@ This is a decentralized crowdfunding application built with **React** and **Soli
 
 ![Homepage](./assets/HomePage.png)
 
-![List of campaigns](./assets/ListOfCamapigns.png)
+![List of campaigns](./assets/ListOfCampaigns.png)
 
 ![Footer](./assets/Footer.png)
 
