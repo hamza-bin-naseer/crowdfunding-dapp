@@ -39,15 +39,19 @@ cd crowdfunding-dapp
 
 Run the following command in the root directory to install all necessary packages:
 
+```bash
 npm install
+```
 
+---
 
 ### 3️⃣ Start the Local Hardhat Network
 
 Start your local blockchain using:
 
+```bash
 npx hardhat node
-
+```
 
 > 📝 **Note:** Leave this terminal running. It acts as your local blockchain network.
 
@@ -57,7 +61,9 @@ npx hardhat node
 
 Open a **new terminal tab/window**, and run:
 
+```bash
 npx hardhat run scripts/deploy.js --network localhost
+```
 
 This will deploy the contract to your local Hardhat network. After deployment, copy the **contract address** printed in the terminal.
 
@@ -67,13 +73,18 @@ This will deploy the contract to your local Hardhat network. After deployment, c
 
 Open the file:
 
+```
 Context/contants.js
+```
 
 Paste the copied **contract address** and make sure the ABI is correctly imported or linked.
 
 Example:
 
+```js
 export const CONTRACT_ADDRESS = "0xYourContractAddressHere";
+```
+Also this cmd create a two new folders go to artifacts/contract and copy CrwodFunding.json and past it in Context folder.
 
 ---
 
@@ -81,7 +92,9 @@ export const CONTRACT_ADDRESS = "0xYourContractAddressHere";
 
 Now start the React frontend:
 
+```bash
 npm run dev
+```
 
 Visit your app in the browser:
 👉 `http://localhost:3000`
@@ -127,3 +140,6 @@ Enjoy your decentralized fundraising experience! 🚀
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
+
+---
+
