@@ -5,6 +5,14 @@ This is a decentralized crowdfunding application built with **React** and **Soli
 
 ---
 
+## 🖼️ Screenshot
+
+![Homepage](./assets/HomePage.png)
+
+![List of campaigns](./assets/ListOfCamapigns.png)
+
+![Footer](./assets/Footer.png)
+
 ## 🚀 Features
 
 * Create and manage crowdfunding campaigns
